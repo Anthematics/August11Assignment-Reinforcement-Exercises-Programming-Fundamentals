@@ -32,9 +32,11 @@ puts train610
 
 travellingtrains=[]
 thetrains.select do|trainlist|
-	if thetrains [:direction]="north"|| thetrains [:direction]="east"
+	if thetrains [:direction]=="north"|| thetrains [:direction]=="east"
 		travellingtrains<<
-
+		print.travellingtrains
+	end
+end
 # northandeasttrains=	def direction == trainlist.select do|trainlist|
 # 		if trainlist[:direction] ="north" || trainlist[:direction]="east"
 # 			northandeasttrains <<
